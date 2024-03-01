@@ -22,7 +22,7 @@ class Solution {
     public boolean ispossible(int[] position,int m,int mid){
         int cnt=1;
         int lst = position[0];
-        for(int i =0;i<position.length;i++){
+        for(int i =1;i<position.length;i++){
             if(position[i]-lst>=mid){
                 lst = position[i];
                 cnt++;
